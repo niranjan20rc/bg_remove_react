@@ -1,0 +1,9 @@
+.grid-background {
+  background-color: #f5f5f5;
+  background-image:
+    linear-gradient(to right, var(--line-color) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--line-color) 1px, transparent 1px);
+  background-size: var(--cell-size) var(--cell-size);
+  background-position: -1px -1px;
+  overflow: auto;
+}
