@@ -1,6 +1,14 @@
 import "./App.css"
 import React, { useState, useCallback } from 'react';
 
+
+const Nav=()=>{
+  return(<div>
+    <nav>AI Based BackGround Remover</nav>
+  </div>)
+}
+
+
 function App() {
   const [file, setFile] = useState(null);
   const [resultUrl, setResultUrl] = useState('');
